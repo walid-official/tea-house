@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+    <!-- fontawsome css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Daisy UI Css -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <!-- Tailwind CDN -->
@@ -29,8 +31,26 @@
     </style>
 </head>
 <body>
-    <header>
-      
+    <header class="md:flex md:justify-between md:items-center w-11/12 mx-auto py-20">
+        <div class="banner-content">
+          <h1 class=" text-5xl sm:text-7xl font-extrabold sm:leading-tight">It's good <br> tea time at The <br> Tea House</h1>
+          <p class="w-10/12 font-bold my-4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+          <button class="btn bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-white font-bold">Explore More</button>
+        </div>
+        <div class="banner-image mt-16 md:mt-0 relative">
+          <div class="flex gap-6 bg-white shadow p-4 w-60 mx-auto absolute bottom-0 sm:left-[20%] rounded">
+            <div class="flex items-center">
+              <i class="fa-solid fa-star text-yellow-500 text-2xl"></i>
+            </div>
+            <div class="">
+              <h2 class="font-bold text-2xl">5.00</h2>
+              <p>Trust Pilot Ratings</p>
+            </div>
+          </div>
+          
+          <img src="images/banner.png" alt="">
+          
+        </div>
     </header>
 
 
